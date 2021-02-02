@@ -13,8 +13,7 @@ public class Methods {
 	
 	@Given("Load Browser and Login url")
 	public void loadBrowserAndLoginUrl() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chowd\\eclipse-workspace\\LSIproject\\"
-				+ "driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumSoft\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

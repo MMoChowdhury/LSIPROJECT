@@ -1,25 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44709" started-at="2021-01-30T18:56:16 GMT" finished-at="2021-01-30T18:57:01 GMT">
+  <suite name="Default suite" duration-ms="111635" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:06:16 GMT">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="44709" started-at="2021-01-30T18:56:16 GMT" finished-at="2021-01-30T18:57:01 GMT">
-      <class name="frameWorkPractice.TC003_Product">
-        <test-method status="PASS" signature="Login()[pri:0, instance:frameWorkPractice.TC003_Product@7d0587f1]" name="Login" duration-ms="19440" started-at="2021-01-30T18:56:16 GMT" finished-at="2021-01-30T18:56:35 GMT">
+    <test name="Default test" duration-ms="111635" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:06:16 GMT">
+      <class name="steps.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.Runner@396f6598]" name="setUpClass" is-config="true" duration-ms="105" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:04:25 GMT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Wishlist()[pri:0, instance:frameWorkPractice.TC003_Product@7d0587f1]" name="Wishlist" duration-ms="13135" started-at="2021-01-30T18:56:35 GMT" finished-at="2021-01-30T18:56:49 GMT">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" duration-ms="33801" started-at="2021-01-31T12:04:25 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T12:04:58 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UFS_1 Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LSI Automation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Wishlist -->
-        <test-method status="PASS" signature="Product()[pri:0, instance:frameWorkPractice.TC003_Product@7d0587f1]" name="Product" duration-ms="12071" started-at="2021-01-30T18:56:49 GMT" finished-at="2021-01-30T18:57:01 GMT">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" duration-ms="77642" started-at="2021-01-31T12:04:58 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T12:06:16 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UFS_2 Product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LSI Automation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Product -->
-      </class> <!-- frameWorkPractice.TC003_Product -->
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.Runner@396f6598]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2021-01-31T12:06:16 GMT" finished-at="2021-01-31T12:06:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- steps.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

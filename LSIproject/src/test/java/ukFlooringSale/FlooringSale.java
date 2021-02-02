@@ -11,11 +11,12 @@ public class FlooringSale {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chowd\\eclipse-workspace\\LSIproject\\"
-				+ "driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\chowd\\eclipse-workspace\\POMframework1\\driver\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.get(url);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.ukflooringsale.co.uk/");
 		
 		//click My Account

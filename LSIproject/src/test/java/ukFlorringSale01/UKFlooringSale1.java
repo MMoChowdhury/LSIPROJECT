@@ -75,13 +75,8 @@ public static void main(String[] args) throws InterruptedException {
 				
 		Thread.sleep(3000);
 		driver.findElementByXPath("(//span[@style='color:;'])[10]").click();
-		//driver.findElementByXPath("(//span[text()='Lynton'])[1]").click();
-		
-		//Thread.sleep(3000);
 		driver.findElementByXPath("(//span[text()='Brecon Laminate Flooring'])[2]").click();
 		
-		/*Thread.sleep(3000);
-		driver.findElementByXPath("(//span[@style='color:;'])[10]").click();
-		driver.findElementByXPath("(//span[text()='Lynton'])[2]").click();*/
+		
 }
 }

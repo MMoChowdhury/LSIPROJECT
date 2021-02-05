@@ -2,55 +2,55 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111635" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:06:16 GMT">
+  <suite name="Default suite" duration-ms="56833" started-at="2021-02-05T18:17:09 GMT" finished-at="2021-02-05T18:18:05 GMT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps1.Runner@396f6598]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="111635" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:06:16 GMT">
-      <class name="steps.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.Runner@396f6598]" name="setUpClass" is-config="true" duration-ms="105" started-at="2021-01-31T12:04:24 GMT" finished-at="2021-01-31T12:04:25 GMT">
+    <test name="Default test" duration-ms="56833" started-at="2021-02-05T18:17:09 GMT" finished-at="2021-02-05T18:18:05 GMT">
+      <class name="steps1.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps1.Runner@396f6598]" name="setUpClass" is-config="true" duration-ms="176" started-at="2021-02-05T18:17:09 GMT" finished-at="2021-02-05T18:17:09 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" duration-ms="33801" started-at="2021-01-31T12:04:25 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T12:04:58 GMT">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps1.Runner@396f6598]" name="runScenario" duration-ms="25214" started-at="2021-02-05T18:17:09 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-05T18:17:34 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["UFS_1 Login"]]>
+                <![CDATA["UFS_2"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["LSI Automation"]]>
+                <![CDATA["UkFlooring Automation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.Runner@396f6598]" name="runScenario" duration-ms="77642" started-at="2021-01-31T12:04:58 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-31T12:06:16 GMT">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps1.Runner@396f6598]" name="runScenario" duration-ms="31327" started-at="2021-02-05T18:17:34 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-05T18:18:05 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["UFS_2 Product"]]>
+                <![CDATA["UFS_login"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["LSI Automation"]]>
+                <![CDATA["UkFlooring Automation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.Runner@396f6598]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2021-01-31T12:06:16 GMT" finished-at="2021-01-31T12:06:16 GMT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps1.Runner@396f6598]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2021-02-05T18:18:05 GMT" finished-at="2021-02-05T18:18:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- steps.Runner -->
+      </class> <!-- steps1.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

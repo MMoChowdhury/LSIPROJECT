@@ -72,7 +72,7 @@ public class UKFlooringSale2 {
 		driver.findElementByXPath("//span[text()='Search']").click();
 				
 		Thread.sleep(3000);
-		/*driver.findElementByXPath("(//span[@style='color:;'])[10]").click();
+		driver.findElementByXPath("(//span[@style='color:;'])[10]").click();
 		//driver.findElementByXPath("(//span[text()='Lynton'])[1]").click();
 		
 		//Thread.sleep(3000);
